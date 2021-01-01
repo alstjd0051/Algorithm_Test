@@ -1,0 +1,15 @@
+package step1;
+
+import java.util.Scanner;
+
+public class Eighth {
+
+	public static void main(String[] args) {
+
+		Scaner sc = new Scanner(System.in);
+		
+		int num1, num2, num3;
+		
+	}
+
+}

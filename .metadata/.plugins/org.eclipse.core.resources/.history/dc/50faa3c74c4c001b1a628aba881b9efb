@@ -1,0 +1,27 @@
+package step1;
+
+import java.util.Scanner;
+
+public class Eighth {
+
+	static int mod(int n1, int n2, int n3) {
+		return (n1 + n2)%n3;
+	}
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int num1, num2, num3;
+		char oper ;
+		System.out.println("support +,-,*,/,%");
+		num1 = sc.nextInt();
+		num2 = sc.nextInt();
+		num3 = sc.nextInt();
+
+		switch (oper) {
+		case '%':
+			System.out.println(" " + num1 + "%" + num2 + " " + num3 + Eighth.mod(num1, num2, num3));
+			break;
+		}
+	}
+
+}

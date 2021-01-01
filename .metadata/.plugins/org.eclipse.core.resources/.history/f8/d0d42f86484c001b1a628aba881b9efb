@@ -1,0 +1,17 @@
+package step1;
+
+import java.util.Scanner;
+
+public class Sisxth {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("뺄셈");
+		System.out.println("첫번쨰 숫자 입력 : ");
+		int a = sc.nextInt();
+		System.out.println("두번째 숫자 입력 : ");
+		int b = sc.nextInt();
+		
+	}
+
+}
